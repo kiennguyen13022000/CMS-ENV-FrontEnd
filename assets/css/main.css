@@ -1,0 +1,162 @@
+@font-face {
+    font-family: Myriad Pro;
+    src: url("../fonts/MYRIADPRO-REGULAR.OTF") format("opentype");
+}
+.main-wrapper{
+    background: #E5E5E5;
+}
+.main-navbar {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.05);
+    border-radius: 10px 0px 10px 10px;
+}
+.main-sidebar{
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.05);
+    border-radius: 0px 10px 10px 0px;
+}
+.sidebar-style-2 .sidebar-menu > li.active > a {
+    padding-left: 11px;
+    background: #EFF8FF !important;
+    border-radius: 10px !important;
+}
+.main-sidebar .sidebar-menu li.active {
+    color: #1D69A0;
+}
+
+.main-sidebar .sidebar-menu li {
+    padding: 0 15px !important;
+
+}
+.main-sidebar .sidebar-menu li a {
+    padding-left: 11px;
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #111111;
+}
+.main-sidebar .sidebar-menu li a svg{
+    margin-right: 13px;
+    margin-left: 6px;
+}
+.sidebar-style-2 .sidebar-menu > li.active > a:before {
+    transform: translateY(0) !important;
+    height: 0px;
+    width: 0px !important;
+    background-color: white !important;
+}
+
+.sidebar-menu {
+    margin-top: 25px !important;
+}
+
+.dot-arrow {
+    width: 16px;
+    height: 13px;
+    text-align: center;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 50%;
+    background: #F3F3F3;
+}
+.dot-arrow path{
+    fill: black;
+}
+.main-sidebar .sidebar-menu li.active path {
+    fill: #1D69A0;
+}
+.main-sidebar .sidebar-menu li.active .dot-arrow {
+    background: white;
+}
+
+.main-sidebar .sidebar-menu li a.has-dropdown:after {
+    content: "" !important;
+}
+
+.main-sidebar .sidebar-menu li ul.dropdown-menu li a {
+    padding-left: 25px !important;
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #111111;
+}
+.navbar-bg{
+    background: white !important;
+}
+.main-navbar{
+    /*margin-left: 15px;*/
+}
+
+.wrapper-menu{
+    width: 39px;
+    height: 37px;
+    text-align: center;
+    line-height: 35px;
+    background: #F4F4F4;
+    border-radius: 3px;
+}
+
+.breadcrumb-item a, .breadcrumb-item.active{
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 600;
+    color: #1D69A0;
+}
+
+.breadcrumb-item.active {
+    color: #111111;
+}
+
+.text-user{
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #383838;
+}
+
+.logtout{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    line-height: 38px;
+    text-align: center;
+    background: #F3F3F3;
+}
+
+.footer{
+    background: #1D69A0;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.05);
+    border-radius: 10px 10px 0px 10px;
+    margin-left: 16px;
+    bottom: 0;
+}
+.navbar{
+    right: 0px !important;
+}
+.main-content{
+    min-height: 500px !important;
+}
+.my-footer{
+    position: relative;
+    min-height: 220px;
+}
+.main-navbar{
+    margin-left: 16px;
+}
+@media (max-width: 1024px){
+    .main-navbar, .footer{
+        margin-left: 0px;
+        left: 0px;
+    }
+    .main-navbar{
+        border-radius: 0px 0px 10px 10px;
+    }
+    .footer{
+        border-radius: 10px 10px 0px 0px;
+    }
+}
